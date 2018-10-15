@@ -1,0 +1,67 @@
+.black{
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    float: right;
+    position: relative;
+    width: 10vw;
+    height: 10vw;
+}
+.red{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    float: right;
+    position: relative;
+    width: 10vw;
+    height: 10vw;
+
+}
+.checker{
+    border-radius: 50%;
+    background-color: pink;
+    position: absolute;
+    right: 30%;
+    top: 30%;
+    width: 4vw;
+    height: 4vw;
+}
+.checker4{
+    border-radius: 50%;
+    background-color: pink;
+    position: absolute;
+   right: 30%;
+    top: 30%;
+    width: 4vw;
+    height: 4vw;
+}
+.checker:hover{
+    background-color:aqua;
+}
+.checker4:hover{
+    background-color:aqua;
+}
+.checker2:hover{
+    background-color:aqua;
+}
+.checker3:hover{
+    background-color:aqua;
+}
+.checker2{
+    border-radius: 50%;
+    background-color: pink;
+    position: absolute;
+    right: 30%;
+    top: 30%;
+    width: 4vw;
+    height: 4vw;
+}
+.checker3{
+   border-radius: 50%;
+    background-color: pink;
+    position: absolute;
+    right: 30%;
+    top: 30%;
+    width: 4vw;
+    height: 4vw;
+}

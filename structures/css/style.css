@@ -1,0 +1,52 @@
+
+
+h1, h2, h3 {
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+
+  padding: 0;
+  font-weight: normal;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-family: Georgia, serif;
+  font-size: 34px;
+  text-align: center;
+}
+
+#word-target {
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#source-target {
+  font-style: italic;
+}
+html{
+    background-image: url(Marilyn1.png);
+    background-size: 1300px 786px;
+      height: 768px;
+      width: 1024px;
+    
+}
+#first{
+      height: 768px;
+      width: 1024px;
+      background-size: 1300px 786px;
+      background-image: url(BLINK.png);
+}
+.hidden{
+      opacity: 0;
+      width: 900px;
+      height: 900px;
+      
+}

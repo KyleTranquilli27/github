@@ -1,0 +1,366 @@
+/* Begin CSS Reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.2em;
+    font-family: 'Sancreek', cursive;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html{
+    height: 650px;
+    background-image: url(FZP4NQ.jpg)
+}
+#first{
+    font-size: 6em;
+    color: gold;
+    margin-top: 7%;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1%;
+}
+#first2{
+    font-size: 5em;
+    color: gold;
+    margin-left: 41%;
+    margin-top: 15%;
+    font-weight: 300;
+}
+#first3{
+   font-size: 5em;
+    color: gold;
+    margin-left: 39%;
+    margin-top: 9%;
+    font-weight: 300
+}
+#first5{
+  font-size: 5em;
+    color: gold;
+    margin-left: 30%;
+    margin-bottom: 3%;
+    margin-top: 15%;
+    font-weight: 300
+}
+#first6{
+    font-size: 5em;
+    color: gold;
+    margin-left: 520px;
+    margin-top: 50px;
+    font-weight: 300;
+    display: none;
+}
+#second{
+    font-size: 1em;
+    color: white;
+    font-weight: 100;
+    font-family: 'Arsenal', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 90px;
+    margin-top; 90px;
+}
+#second2{
+   font-size: 1em;
+    color: white;
+    font-weight: 500;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: 26%;
+    font-family: 'Arsenal', sans-serif;
+    text-align: center;
+    overflow: auto;
+}
+#second3{
+   font-size: 4em;
+    color: rgb(255, 83, 61);
+    font-weight: 500;
+    width: 700px;
+    margin-left: 320px;
+    font-family: 'Arsenal', sans-serif;
+    text-align: center;
+    overflow: auto;
+}
+
+#third3{
+    font-size: 1em;
+    color: rgb(255, 83, 61);
+    font-weight: 75;
+    font-family: 'Arsenal', sans-serif;
+ 
+}
+.button{
+    border-radius: 25%/50%;
+    width: 170px;
+    height: 80px;
+    background-color: orchid;
+    color: white;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 30px;
+    line-height: 2.5;
+    position: relative;
+    left: 44%;
+    top: 77%;
+    
+}
+.button:hover{
+    background-color:mediumorchid;
+}
+.button2{
+    border-radius: 25%/50%;
+    width: 170px;
+    height: 80px;
+    background-color: orchid;
+    color: white;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 30px;
+    line-height: 2.5;
+    position: relative;
+    left: 45%;
+    top: 77%;
+ }
+.button2:hover{
+    background-color:mediumorchid;
+}
+.button3{
+    border-radius: 25%/50%;
+    width: 170px;
+    height: 80px;
+    background-color: orchid;
+    color: white;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 20px;
+    line-height: 2.5;
+   position: absolute;
+    left: 20%;
+    top: 66%;
+}
+.button3:hover{
+    background-color:mediumorchid;
+}
+.button4{
+    border-radius: 25%/50%;
+    width: 170px;
+    height: 80px;
+    background-color: orchid;
+    color: white;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 20px;
+    line-height: 2.5;
+    float: left;
+    position: absolute;
+    left: 70%;
+    top: 66%;
+}
+.button4:hover{
+    background-color:mediumorchid;
+}
+.button5{
+    border-radius: 25%/50%;
+    width: 170px;
+    height: 80px;
+    background-color: orchid;
+    color: white;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 20px;
+    line-height: 2.5;
+    position: absolute;
+    left: 45%;
+    top: 66%;
+ 
+}
+.button5:hover{
+    background-color:mediumorchid;
+}
+.button6{
+    border-radius: 25%/50%;
+    width: 170px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 20px;
+    line-height: 2.5;
+    margin-bottom: 40px;
+    margin-left: 400px;
+    float: left;
+    display: none;
+}
+.button6:hover{
+    background-color: darkblue;
+}
+
+.button7{
+    border-radius: 25%/50%;
+    width: 170px;
+    height: 80px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 20px;
+    line-height: 2.5;
+    margin-bottom: 40px;
+    margin-left: 200px;
+    float: left;
+    display: none;
+}
+.button7:hover{
+    background-color: darkred;
+}
+
+a{
+   color: white;
+   font-family: 'Arsenal', sans-serif;
+   text-decoration: none;
+   font-size: 30px;
+}
+
+
+
+#wrong1{
+    font-size: 5em;
+    color: gold;
+    margin-left: 110px;
+    margin-right: 100px;
+    margin-top: 50px;
+    text-align: center;
+        
+}
+#wrong2{
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-family: 'Arsenal', sans-serif;
+    text-align: left;
+
+}
+#wrongbutton{
+    border-radius: 25%/50%;
+    width: 170px;
+    height: 80px;
+    background-color: orchid;
+    color: white;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 30px;
+    line-height: 2.5;
+    position: fixed;
+    left: 580px;
+    top: 83%;
+}
+#wrongbutton:hover{
+    background-color:mediumorchid;
+}
+
+#question{
+    font-size: 2.5em;
+    color: white;
+    margin-left: 16%;
+    margin-top: 15%;
+    margin-right: 160px;
+    margin-bottom: 15%;
+    font-weight: 500;
+    font-family: 'Arsenal', sans-serif;
+    text-align: center;
+}
+
+#results{
+    font-size: 2em;
+    color: rgb(255, 83, 61);
+    font-weight: 500;
+    width: 700px;
+    color: gold;
+    margin-left: 320px;
+    text-align: center;
+    overflow: auto;
+    margin-bottom: 40px;
+    display: none;
+    margin-top: 20px;
+}
+
+#ariesdesc{
+   font-size: .9em;
+    color: white;
+    font-weight: 100;
+    width: 1000px;
+    margin-left: 150px;
+    font-family: 'Arsenal', sans-serif;
+    text-align: left;
+    overflow: auto;
+    margin-bottom: 30px;
+    display: none;
+}
+#right{
+    font-size: 5em;
+    color: gold;
+    margin-left: 520px;
+    margin-top: 110px;
+    font-weight: 300;
+}
+#mid{
+    font-size: 6em;
+    color: gold;
+    margin-left: 6%;
+    margin-right: 4%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    font-weight: 300;
+    display: none;
+}
+#mid2{
+    font-size: .9em;
+    color: white;
+    font-weight: 100;
+    width: 1000px;
+    margin-left: 13%;
+    font-family: 'Arsenal', sans-serif;
+    text-align: center;
+    overflow: auto;
+    display: none;
+}
+#midbutton{
+    border-radius: 25%/50%;
+    width: 170px;
+    height: 80px;
+    background-color: orchid;
+    color: white;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 20px;
+    line-height: 2.5;
+    position: absolute;
+    left: 45%;
+    top: 66%;
+    display: none;
+ 
+}
+#midbutton:hover{
+    background-color:mediumorchid;
+}
+
+

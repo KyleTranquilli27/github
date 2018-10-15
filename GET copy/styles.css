@@ -1,0 +1,777 @@
+/* Begin CSS Reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html{
+    background-color: white;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.Clinton{
+    font-size: 1m;
+    margin-top: 4%;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 4%;
+    
+}
+.Clinton:hover {
+        color: red;
+        font-size: 1.1em;
+}
+.Clinton1{
+    opacity: 0;
+}
+.nine{
+    font-size: 1m;
+    margin-top: 4%;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 75%;
+    
+}
+.nine1{
+    opacity: 0;
+}
+.nine:hover {
+        color: orange;
+        font-size: 1.1em;
+       
+}
+.Obama{
+    font-size: 1m;
+    margin-top: 4%;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 82%;
+    
+}
+.Obama1{
+    opacity: 0;
+}
+.Obama:hover {
+        color: purple;
+        font-size: 1.1em;
+}
+
+
+.OJ{
+    font-size: 1em;
+    margin-top: 4%;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 20%;   
+}
+.OJ1{
+    opacity: 0;
+}
+.OJ:hover {
+        color: green;
+        font-size: 1.1em;
+
+}
+.Bush{
+    font-size: 1em;
+    margin-top: 4%;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 35%;   
+}
+.Bush1{
+    opacity: 0;
+}
+.Bush:hover {
+        color: blue;
+        font-size: 1.1em;
+}
+.Bushsr{
+    font-size: 1em;
+    margin-top: 4%;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 54%;   
+}
+.Bushsr:hover {
+        color: hotpink;
+        font-size: 1.1em;
+}
+
+
+.column{
+    height: 199.4%;
+    width: .15%;
+    background-color: black;
+    margin-left: 49%;
+    position: absolute;
+    margin-bottom: 10%;
+}
+.row{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+}
+.row2{
+   height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 4%;
+    z-index: 1;
+    position: absolute;
+}
+.row3{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 8%;
+    z-index: 1;
+    position: absolute;
+}
+.row4{
+     height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 12%;
+    z-index: 1;
+    position: absolute;
+}
+.row5{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 16%;
+    z-index: 1;
+    position: absolute;
+}
+.row6{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 20%;
+    z-index: 1;
+    position: absolute;
+}
+.row7{
+     height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 24%;
+    z-index: 1;
+    position: absolute;
+}
+.row8{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 28%;
+    z-index: 1;
+    position: absolute;
+}
+.row9{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 32%;
+    z-index: 1;
+    position: absolute;
+}
+.row10{
+     height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 36%;
+    z-index: 1;
+    position: absolute;
+}
+.row11{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 40%;
+    z-index: 1;
+    position: absolute;
+}
+.row12{
+    height: 2px;
+   width: 100%;
+    background-color: black;
+    margin-top: 44%;
+    z-index: 1;
+    position: absolute;
+}
+.row13{
+     height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 48%;
+    z-index: 1;
+    position: absolute;
+}
+.row14{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 52%;
+    z-index: 1;
+    position: absolute;
+}
+.row15{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 56%;
+    z-index: 1;
+    position: absolute;
+}
+.row16{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 60%;
+    z-index: 1;
+    position: absolute;
+}
+.row17{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 64%;
+    z-index: 1;
+    position: absolute;
+}
+.row18{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 68%;
+    z-index: 1;
+    position: absolute;
+}
+.row19{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 72%;
+    z-index: 1;
+    position: absolute;
+}
+.row20{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 76%;
+    z-index: 1;
+    position: absolute;
+}
+.row21{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 80%;
+    z-index: 1;
+    position: absolute;
+}
+.row22{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 84%;
+    z-index: 1;
+    position: absolute;
+}
+.row23{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 88%;
+    z-index: 1;
+    position: absolute;
+}
+.row24{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 92%;
+    z-index: 1;
+    position: absolute;
+}
+.row25{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 96%;
+    z-index: 1;
+    position: absolute;
+}
+.row26{
+      height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 100%;
+    margin-bottom: 10%;
+    z-index: 1;
+    position: absolute;
+}
+.tape1{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 22%;
+    margin-top: 11.6%;
+    position: absolute;
+    
+}
+.tape2{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+   margin-top: 11.6%;
+    position: absolute;
+    
+}
+.tape3{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 25%;
+    margin-top: 15.6%;
+    position: absolute;
+    
+}
+.tape4{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 15.6%;
+    position: absolute;
+    
+}
+.tape5{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 19.5%;
+    position: absolute;
+    
+}
+.tape6{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 12.8%;
+    margin-top: 19.5%;
+    position: absolute;
+    
+}
+.tape7{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 17.6%;
+    margin-top: 23.6%;
+    position: absolute;
+    
+}
+.tape8{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 23.6%;
+    position: absolute;
+    
+}
+.tape9{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 18%;
+    margin-top: 5.8%;
+    position: absolute;
+    
+}
+.tape8{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 23.6%;
+    position: absolute;
+    
+}
+.tape9{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 10.2%;
+    margin-top: 27.6%;
+    position: absolute;
+    
+}
+.tape10{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 27.6%;
+    position: absolute;
+    
+}
+.tape11{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 31.6%;
+    position: absolute;
+    
+}
+.tape12{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 10%;
+    margin-top: 31.6%;
+    position: absolute;
+    
+}
+.tape13{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 19%;
+    margin-top: 35.6%;
+    position: absolute;   
+}
+.tape14{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 25%;
+    margin-top: 39.5%;
+    position: absolute;   
+}
+.tape15{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 35.6%;
+    position: absolute;   
+}
+.tape16{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 39.6%;
+    position: absolute;   
+}
+.tape17{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 43.5%;
+    position: absolute;   
+}
+.tape18{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 20.4%;
+    margin-top: 43.5%;
+    position: absolute;   
+}
+.tape19{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 18.1%;
+    margin-top: 47.5%;
+    position: absolute;   
+}
+.tape20{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 47.5%;
+    position: absolute;   
+}
+.tape21{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 51.5%;
+    position: absolute;   
+}
+.tape22{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 13%;
+    margin-top: 51.5%;
+    position: absolute;   
+}
+.tape23{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 19.1%;
+    margin-top: 55.5%;
+    position: absolute;   
+}
+.tape24{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 55.5%;
+    position: absolute;   
+}
+.tape25{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 59.5%;
+    position: absolute;   
+}
+.tape26{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 23%;
+    margin-top: 59.5%;
+    position: absolute;   
+}
+.tape27{
+    font-family: sans-serif;
+    font-size: .6em;
+    z-index: 1;
+    width: 45%;
+    margin-left: 1%;
+    margin-top: 63.1%;
+    position: absolute;   
+}
+.tape28{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 63.5%;
+    position: absolute;   
+}
+.tape29{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 8.6%;
+    margin-top: 67.5%;
+    position: absolute;   
+}
+.tape30{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 67.5%;
+    position: absolute;   
+}
+.tape31{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 71.5%;
+    position: absolute;   
+}
+.tape32{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 8.5%;
+    margin-top: 71.5%;
+    position: absolute;   
+}
+.tape33{
+    font-family: sans-serif;
+    font-size: .6em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 75.7%;
+    position: absolute;   
+}
+.tape34{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 26.6%;
+    margin-top: 75.5%;
+    position: absolute;   
+}
+.tape35{
+    font-family: sans-serif;
+    font-size: .6em;
+    z-index: 1;
+    width: 44%;
+    margin-left: 55%;
+    margin-top: 79.6%;
+    position: absolute;   
+}
+.tape36{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 23.8%;
+    margin-top: 79.6%;
+    position: absolute;   
+}
+.tape37{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 20.5%;
+    margin-top: 83.6%;
+    position: absolute;   
+}
+.tape38{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 83.6%;
+    position: absolute;   
+}
+.tape39{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 87.6%;
+    position: absolute;   
+}
+.tape40{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 11.6%;
+    margin-top: 87.6%;
+    position: absolute;   
+}
+.tape41{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 8.8%;
+    margin-top: 91.6%;
+    position: absolute;   
+}
+.tape42{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 91.6%;
+    position: absolute;   
+}
+.tape43{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 95.6%;
+    position: absolute;   
+}
+.tape44{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 17.2%;
+    margin-top: 95.6%;
+    position: absolute;   
+}
+.tape45{
+    font-family: sans-serif;
+    font-size: .6em;
+    z-index: 1;
+    margin-left: 2%;
+    margin-top: 99.6%;
+    position: absolute;   
+}
+.tape46{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 99.6%;
+    position: absolute;   
+}
+.tape47{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 103.6%;
+    position: absolute;   
+}
+.tape48{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 22.5%;
+    margin-top: 103.6%;
+    position: absolute;   
+}
+.tape49{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 21.5%;
+    margin-top: 107.6%;
+    position: absolute;   
+}
+.tape50{
+    font-family: sans-serif;
+    font-size: .7em;
+    z-index: 1;
+    margin-left: 55%;
+    margin-top: 107.6%;
+    position: absolute;   
+}
+.line-wrapper{
+    font-family: sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    
+}
+

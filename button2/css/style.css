@@ -1,0 +1,121 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+background: rgba(212,228,239,1);
+background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,204,173,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,204,173,1)));
+background: -webkit-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,204,173,1) 100%);
+background: -o-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,204,173,1) 100%);
+background: -ms-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,204,173,1) 100%);
+background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(134,204,173,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86ccad', GradientType=1 ););
+}
+
+
+#bar {
+  position: fixed;
+  bottom: 0;
+  height: 150px;
+  width: 100%;
+  line-height: 150px;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,233,249,1)), color-stop(37%, rgba(216,208,239,1)), color-stop(51%, rgba(206,199,236,1)), color-stop(100%, rgba(193,191,234,1)));
+background: -webkit-linear-gradient(left, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 37%, rgba(206,199,236,1) 51%, rgba(193,191,234,1) 100%);
+background: -o-linear-gradient(left, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 37%, rgba(206,199,236,1) 51%, rgba(193,191,234,1) 100%);
+background: -ms-linear-gradient(left, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 37%, rgba(206,199,236,1) 51%, rgba(193,191,234,1) 100%);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  color: white;
+  font-weight: 100;
+  text-align: left;
+  border-radius: 100px / 100px;
+  text-align: center;
+  z-index: 99;
+  margin-bottom: 500px;
+}
+
+
+.bar2 {
+  position: absolute;
+  bottom: 0;
+  height: 150px;
+  width: 100%;
+  line-height: 150px;
+  background-color: pink;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  color: white;
+  font-weight: 100;
+  text-align: left;
+  border-radius: 100px / 100px;
+  text-align: center;
+  z-index: 99;
+  margin-bottom: 500px;
+  opacity: 0;
+}
+
+
+#balloon-container {
+   margin-top: 140px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+
+.balloon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 12px 6px;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  border-radius: 50px / 50px;
+  animation: drift;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.yay{
+    width: 1600px;
+    position: absolute;
+    height: 670px;
+    background-color: orange;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.9s;
+    
+}
+.on{
+    opacity: 1;
+    transition: all 0.7s;
+}
+.popped{
+    opacity: 0;
+    pointer-events: none;
+}
+.big{
+     width: 20px;
+     height: 20px;
+     background-color: lightyellow;
+    
+}
+@keyframes drift{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: -10px;
+    }
+    100%{
+        left: 0;
+    }
+}
+

@@ -1,0 +1,44 @@
+html, body{
+    height: 100%
+}
+    
+div{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    margin: 100px; 0; 600; 1;    
+}
+.circle{
+    border-radius: 50%;
+    position: absolute;
+}
+#Red{
+    background-color: red;
+}
+p{
+    font-family: 'Sansita', sans-serif;
+    color: black;
+}
+h1{
+    font-family: 'Sansita', sans-serif; 
+    color: pink;
+    font-size: 4em;
+}
+h2{
+    font-family: 'Sansita', sans-serif; 
+    color: hotpink;
+    font-size: 1em;
+}
+h3{
+    font-family: 'Sansita', sans-serif; 
+    color: lightpink;
+    font-size: 1em;
+    margin-bottom: 0px;
+}
+li{
+    font-family: 'Sansita', sans-serif; 
+    color: hotpink;
+    font-size: .8em; 
+    margin-left: 40px;
+    margin-top: 5px;
+}

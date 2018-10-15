@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="utf-8">
+        <title>THESIS</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+        <script src="myscript.js"></script>
+    </head>
+    
+    
+<style>
+
+    html{
+        background-color: white;
+    }
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    top: 40%;
+    cursor: move;
+    left: 10%;
+}
+#mydiv img{
+    height: 400px;
+    width: 275px;
+    }
+
+
+#mydivheader {
+    cursor: move;
+    color: white;
+    position: absolute;
+    top: 230px;
+    font-size: 1.5em;
+    text-shadow: 0 0 3px #05ffff, 0 0 5px #05ffff;
+    left: 10px;
+    text-align: left;
+    background: none;
+}
+#mydivheader2 {
+    cursor: move;
+    color: white;
+    position: absolute;
+    top: 230px;
+    font-size: 1.5em;
+    text-shadow: 0 0 3px #05ff15, 0 0 5px #05ff15;
+    left: 10px;
+    text-align: left;
+    background: none;
+}
+#mydivheader3 {
+    cursor: move;
+    color: white;
+    position: absolute;
+    top: 230px;
+    font-size: 1.5em;
+    text-shadow: 0 0 3px #ffd800, 0 0 5px #ffd800;
+    left: 10px;
+    text-align: left;
+    background: none;
+}
+
+#mydivheader4 {
+    cursor: move;
+    color: white;
+    position: absolute;
+    top: 230px;
+    font-size: 1.5em;
+    text-shadow: 0 0 3px #ff006a, 0 0 5px #ff006a;
+    left: 10px;
+    text-align: left;
+    background: none;
+}
+#mydivheader5 {
+    cursor: move;
+    color: white;
+    position: absolute;
+    top: 230px;
+    font-size: 1.5em;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #ff0000;
+    left: 10px;
+    text-align: left;
+    background: none;
+}
+
+a {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    right: 47%;
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    top: 28%;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+#mydivheader6 {
+    cursor: move;
+    color: white;
+    position: absolute;
+    top: 230px;
+    font-size: 1.5em;
+    text-shadow: 0 0 3px #b200ff, 0 0 5px #b200ff;
+    left: 10px;
+    text-align: left;
+    background: none;
+}
+#yeet{
+    width: 70px;
+    position: absolute;
+    top: 84%;
+    }
+    
+#yeet2{
+    width: 70px;
+    position: absolute;
+    top: 84%;
+    right: 75%;
+    }
+    
+    
+h1{
+    font-size: 4.5em;
+    color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: -.5%;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-left: 15%;
+    line-height: 150%;
+    margin-right: 15%; 
+    font-weight: 100;
+
+    }
+#mydiv2 {
+    position: absolute;
+    z-index: 9;
+    background-color: none;
+    text-align: center;
+    border: none;
+    top: 40%;
+    left: 40%;
+}
+#mydiv2 img{
+    height: 400px;
+    width: 275px;
+    }
+
+#text1{
+        font-size: 2em;
+        display: none;
+    }
+    
+#mydiv3 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    top: 40%;
+    cursor: move;
+    left: 70%;
+}
+#mydiv3 img{
+    height: 400px;
+    width: 275px;
+    }
+    
+#mydiv4 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    top: 100%;
+    cursor: move;
+    left: 10%;
+    margin-bottom: 5%;
+    
+}
+#mydiv4 img{
+    height: 400px;
+    width: 275px;
+    }
+
+#mydiv5 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    top: 100%;
+    cursor: move;
+    left: 40%;
+    margin-bottom: 5%;
+    
+}
+#mydiv5 img{
+    height: 400px;
+    width: 275px;
+    }
+    
+#mydiv6 {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    top: 100%;
+    cursor: move;
+    left: 70%;
+    margin-bottom: 5%;
+    
+}
+#mydiv6 img{
+    height: 400px;
+    width: 275px;
+    }
+
+
+</style>
+    
+    
+    
+<body>
+
+
+    
+<h1>PEOPLE OF ICELAND</h1>
+<h2>Iceland is a country of about 340,000 people with it's own unique language. However, as English literacy increases, Icelandic usage declines. Click to interact with each participant, and learn more about the Icelandic language. </h2>
+ <a href="file:///Users/kyletranquilli/Desktop/Tranquilli-Final-master/Iceland/thesis-iceland/index.html">RESET</a>
+
+<div id="mydiv">
+  
+   <p id="mydivheader">Name:Kyle<br>Age:21<br>Word:Ást(Love)</p>
+    <audio controls autoplay id="yeet">
+    <source src='Aust.m4a' type="audio/ogg">
+    <source src='Aust.m4a' type="audio/mpeg"></audio>
+   <img src="green1.jpg">
+</div>
+<div id="mydiv2">
+ <p id="mydivheader2">Name:Borus<br>Age:31<br>Word:heimskur(fool)</p>
+   <img src="KYEL11.JPG">
+    <audio controls autoplay id="yeet2">
+    <source src='Fool.m4a' type="audio/ogg">
+    <source src='Fool.m4a' type="audio/mpeg"></audio>
+</div>
+<div id="mydiv3">
+ <p id="mydivheader3">Name:Eyjafjallajökull<br>Age:23<br>Word:Vinur(friend)</p>
+   <img src="kyle8.JPG">
+    <audio controls autoplay id="yeet2">
+    <source src='Friend.m4a' type="audio/ogg">
+    <source src='Friend.m4a' type="audio/mpeg"></audio>
+</div>
+
+<div id="mydiv4">
+ <p id="mydivheader4">Name:Hekla<br>Age:21<br>Word:
+Ostur(Cheese)</p>
+   <img src="Screen%20Shot%202018-10-15%20at%209.18.28%20AM.png">
+    <audio controls autoplay id="yeet2">
+    <source src='ostur%20cheese.m4a' type="audio/ogg">
+    <source src='ostur%20cheese.m4a' type="audio/mpeg"></audio>
+</div>
+
+<div id="mydiv5">
+ <p id="mydivheader5">Name:Gurta<br>Age:25<br>Word:
+Grænn(green)</p>
+   <img src="Screen%20Shot%202018-10-15%20at%209.19.10%20AM.png">
+    <audio controls autoplay id="yeet2">
+    <source src='Green.m4a' type="audio/ogg">
+    <source src='Green.m4a' type="audio/mpeg"></audio>
+</div>
+
+    <div id="mydiv6">
+ <p id="mydivheader6">Name:Maria<br>Age:21<br>Word:
+Maður(Man)</p>
+   <img src="Screen%20Shot%202018-10-15%20at%209.46.56%20AM.png">
+    <audio controls autoplay id="yeet2">
+    <source src='man%20-%2010_15_18,%209.40%20AM.m4a' type="audio/ogg">
+    <source src='man%20-%2010_15_18,%209.40%20AM.m4a' type="audio/mpeg"></audio>
+</div>
+    
+    
+    
+   
+    <script>
+//Make the DIV element draggagle:
+        
+dragElement(document.getElementById("mydiv"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "img")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "img").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}    
+      
+        //Make the DIV element draggagle:
+dragElement(document.getElementById("mydiv2"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "img")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "img").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+
+}    
+                       //Make the DIV element draggagle:
+        
+dragElement(document.getElementById("mydiv3"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "img")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "img").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}    
+    dragElement(document.getElementById("mydiv4"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "img")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "img").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}    
+        dragElement(document.getElementById("mydiv5"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "img")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "img").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}    
+
+        dragElement(document.getElementById("mydiv6"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "img")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "img").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}    
+
+
+ 
+      
+
+</script>
+
+</body>
+</html>

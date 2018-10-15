@@ -1,0 +1,187 @@
+/* Begin CSS Reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html{
+   
+      height: 100%;
+      width: 100%;
+    
+}
+body{
+   background-size: 100%, 100%;
+  background: rgba(143,224,224,1);
+background: -moz-linear-gradient(45deg, rgba(143,224,224,1) 0%, rgba(230,9,72,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(143,224,224,1)), color-stop(100%, rgba(230,9,72,1)));
+background: -webkit-linear-gradient(45deg, rgba(143,224,224,1) 0%, rgba(230,9,72,1) 100%);
+background: -o-linear-gradient(45deg, rgba(143,224,224,1) 0%, rgba(230,9,72,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(143,224,224,1) 0%, rgba(230,9,72,1) 100%);
+background: linear-gradient(45deg, rgba(143,224,224,1) 0%, rgba(230,9,72,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fe0e0', endColorstr='#e60948', GradientType=1 );
+
+}
+.text{
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   color: lavender;
+   font-weight: 200;
+    
+}
+.first{
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url(MARILYN%20BLINK.jpg);
+}
+.hidden{
+     width: 100%;
+      height: 100vh;
+    background-image: url(MARILYN%20GOOD.jpg);
+    
+}
+
+.second{
+     width: 100%;
+      height: 100vh;
+      background-image: url(MADONNA%20BLINK%20copy.jpg);
+}
+.secondhidden{
+      width: 100%;
+      height: 100vh;
+      background-size:cover;
+      background-image: url(MADONNA.jpg);
+}
+.third{
+     width: 100%;
+      height: 100vh;
+        background-repeat:no-repeat;
+      background-size:cover;
+      background-image: url(MARILYN%202%20BLINK.jpg);
+}
+.thirdhidden{
+     width: 100%;
+      height: 100vh;
+    background-image: url(MARILYN%202.jpg);
+    
+}
+.fourth{
+      width: 100%;
+      height: 100vh;
+      background-size:cover;
+      background-image: url(MADONNA%20GLITTER.jpg);
+}
+.fourthidden{
+     width: 100%;
+      height: 100vh;
+    background-image: url(MADONNA%20NO%20GLITTER.jpg);
+    
+}
+.five{
+      width: 100%;
+      height: 100vh;
+      background-size:cover;
+      background-image: url(ANNA%20NICOLE%20BLINK.jpg);
+}
+.fivehidden{
+     width: 100%;
+      height: 100vh;
+    background-image: url(ANNA%20NICOLE.jpg);
+    
+}
+.six{
+     width: 100%;
+      height: 100vh;
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-image: url(ANNA%20NICOLE%20BLINK2.jpg);
+}
+.sixhidden{
+     width: 100%;
+      height: 100vh;
+    background-image: url(ANNA%20NICOLE%20BLINK%202.jpg);
+    
+}
+.seven{
+      width: 100%;
+      height: 100vh;
+      background-size:cover;
+      background-image: url(ANNA%203%20Blink.jpg);
+}
+.sevenhidden{
+     width: 100%;
+      height: 100vh;
+    background-image: url(ANNA%203%20Normal.jpg);
+    
+}
+.eight{
+      width: 100%;
+      height: 100vh;
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-image: url(GWEN%20BLINK.jpg);
+}
+.eighthidden{
+     width: 100%;
+      height: 100vh;
+    background-image: url(GWEN.jpg);
+    
+}
+.final{
+     width: 100%;
+      height: 100vh;
+      background-size:cover;
+      background-image: url(FINAL%20MARILYN%20BLINK.jpg);
+}
+.finalhidden{
+     width: 100%;
+      height: 100vh;s
+    background-image: url(Final%20Marilyn.jpg);
+    
+}
+.anna{
+      height: 500px;
+      background-repeat:no-repeat;
+      width: 1100px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      background-size:cover;
+      background-image: url(ANNA%203%20Normal.jpg);
+}
+.madonna{
+      height: 500px;
+      background-repeat:no-repeat;
+      width: 1100px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      background-size:cover;
+      background-image: url(MADONNA.jpg);
+}
+h1{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 3em;
+}

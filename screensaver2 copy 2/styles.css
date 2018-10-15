@@ -1,0 +1,183 @@
+/* Begin CSS Reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    vertical-align: baseline;
+    //use z z-index: 
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html{
+   
+    height: 100%;
+    width: 100%;
+    font-family: 'Spirax', cursive;
+  
+}
+body{
+background-size: 100%, 100%;
+width: 100%;
+height: 100vh;
+
+}
+.box{
+    height: 27%;
+    width: 33%;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 4em;
+    position: fixed;
+   font-family: 'Spirax', cursive;
+     text-shadow: 2px 2px #b94646;
+    line-height: 80px;
+    display: none;
+}
+.hey{
+    height: 20%;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 37%;
+    font-size: .9em;
+    position: fixed;
+font-family: 'Arsenal', sans-serif;
+    line-height: 32px;
+     display: none;
+    
+    
+}
+.hey2{
+    height: 20%;
+    width: 60%;
+    margin-top: 10.6%;
+    margin-left: 37%;
+    font-size: .9em;
+    position: fixed;
+font-family: 'Arsenal', sans-serif;
+    line-height: 32px;
+       display: none;
+
+}
+.bold:hover {
+   color: darkred;
+}
+.bold{
+    font-size: 1.7em;
+    color: red;
+    margin-top: 9.9%;
+    margin-left: 48.7%;
+    position: fixed;
+font-family: 'Arsenal', sans-serif;
+    display: none; 
+    animation-name: example;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    100%  {color: red;}
+    100% {color: #ff8a8a;}
+}
+
+.bold:hover {
+       font-size: 2em;
+        color: red;
+}
+
+.box2{
+    height: 20%;
+    width: 50%;
+    font-size: 3em;
+     margin-top: 20%;
+font-family: 'Arsenal', sans-serif;
+    position: fixed;
+    margin-left: 2%;
+}
+.hey3{
+    height: 20%;
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 3%;
+    font-size: .9em;
+    position: fixed;
+      line-height: 32px;
+font-family: 'Arsenal', sans-serif;
+    display: none;
+}
+.hey4{
+    height: 20%;
+    width: 30%;
+    margin-top: 33%;
+    margin-left: 3%;
+    font-size: .9em;
+    position: fixed;
+    line-height: 32px;
+    display: none;
+font-family: 'Arsenal', sans-serif;
+}
+.surround{
+    font-size: 5em;
+    color: red;
+    margin-top: 20%;
+    margin-left: 3%;
+    position: fixed;
+    display: none;
+font-family: 'Arsenal', sans-serif;
+font-family: 'Arsenal', sans-serif;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+}
+.surround:hover {
+        color: red;
+        font-size: 5.5em;
+}
+.attack{
+    font-size: 1.7em;
+    color: red;
+    margin-top: 42%;
+    margin-left: 3%;
+    display: none;
+    position: fixed;
+    font-family: 'Arsenal', sans-serif;
+    font-family: 'Arsenal', sans-serif;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+}
+.attack:hover {
+        color: red;
+        font-size: 2em;
+}
+.hey5{
+    height: 20%;
+    width: 60%;
+    margin-top: 35%;
+    margin-left: 37%;
+    font-size: .9em;
+    position: fixed;
+font-family: 'Arsenal', sans-serif;
+    line-height: 32px;
+    
+    
+}
+
+

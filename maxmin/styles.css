@@ -1,0 +1,285 @@
+html{
+    background: linear-gradient( 45deg, blue, red ); ;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+}
+.hey{
+    width: 50px;
+    height: 50px;
+    background: gold;
+    border-radius: 100px / 50px;
+    padding: 50px 20px 20px 30px;
+}
+.hey1{
+    width: 50px;
+    height: 50px;
+    background: gold;
+    border-radius: 150px / 100px;
+    padding: 60px 30px 30px 40px;
+}
+.hey2{
+    width: 50px;
+    height: 5px;
+    background: gold;
+    border-radius: 200px / 150px;
+    padding: 70px 40px 40px 50px;
+}
+.hey3{
+    width: 50px;
+    height: 50px;
+    background: gold;
+    border-radius: 300px / 300px;
+    padding: 90px 20px 50px 50px;
+}
+.hey4{
+    width: 100px;
+    height: 50px;
+    background: gold;
+    border-radius: 95px / 800px;
+    padding: 90px 50px 510px 2px;
+}
+.hey5{
+    width: 1px;
+    height: 50px;
+    background: gold;
+    border-radius: 45px / 80px;
+    padding: 90px 50px 510px 2px;
+}
+.hey6{
+    width: 100px;
+    height: 50px;
+    background: gold;
+    border-radius: 459px / 82px;
+    padding: 40px 60px 500px 2px;
+}
+.hey7{
+    width: 500px;
+    height: 5px;
+    background: gold;
+    border-radius: 205px / 300px;
+    padding: 6px 50px 20px 2px;
+}
+.hey8{
+    width: 30px;
+    height: 30px;
+    background: gold;
+    border-radius: 40px / 40px;
+    padding: 560px 50px 560px 200px;
+}
+.hey9{
+    width: 1px;
+    height: 2px;
+    background: gold;
+    border-radius: 5px / 800px;
+    padding: 20px 20px 20px 2px;
+}
+.hey10{
+    width: 300px;
+    height: 900px;
+    background: gold;
+    border-radius: 25px / 3px;
+    padding: 600px 5px 2px 200px;
+}
+.hey11{
+    width: 80px;
+    height: 390px;
+    background: gold;
+    border-radius: 434px / 488px;
+    padding: 10px 10px 10px 10px;
+}
+.hey12{
+    width: 04px;
+    height: 2px;
+    background: gold;
+    border-radius: 5px / 800px;
+    padding: 20px 20px 20px 2px;
+}
+.hey13{
+    width: 500px;
+    height: 5px;
+    background: gold;
+    border-radius: 200px / 140px;
+    padding: 10px 40px 20px 12px;
+}
+.hey14{
+    width: 70px;
+    height: 50px;
+    background: gold;
+    border-radius: 10px / 10px;
+    padding: 10px 10px 10px 10px;
+}
+.hey15{
+    width:200px;
+    height: 90px;
+    background: gold;
+    border-radius: 10px / 1350px;
+    padding: 700px 400px 40px 50px;
+}
+.hey16{
+    width: 30px;
+    height: 50px;
+    background: gold;
+    border-radius: 30px / 3px;
+    padding: 9px 2px 5px 5px;
+}
+.hey17{
+    width: 300px;
+    height: 50px;
+    background: gold;
+    border-radius: 95px / 800px;
+    padding: 90px 50px 510px 2px;
+}
+.hey5{
+    width: 1px;
+    height: 50px;
+    background: gold;
+    border-radius: 64px / 26px;
+    padding: 120px 50px 5px 2px;
+}
+.hey18{
+    width: 400px;
+    height: 60px;
+    background: gold;
+    border-radius: 639px / 82px;
+    padding: 40px 60px 600px 2px;
+}
+.hey19{
+    width: 50px;
+    height: 5px;
+    background: gold;
+    border-radius: 25px / 30px;
+    padding: 6px 5px 20px 2px;
+}
+.hey20{
+    width: 3px;
+    height: 30px;
+    background: gold;
+    border-radius: 40px / 4px;
+    padding: 130px 50px 570px 200px;
+}
+.hey21{
+    width: 145px;
+    height: 2px;
+    background: gold;
+    border-radius: 3px / 500px;
+    padding: 20px 20px 70px 2px;
+}
+.hey22{
+    width: 240px;
+    height: 64px;
+    background: gold;
+    border-radius: 235px / 3px;
+    padding: 600px 6px 2px 240px;
+}
+.hey23{
+    width: 823px;
+    height: 30px;
+    background: gold;
+    border-radius: 44px / 48px;
+    padding: 10px 1px 10px 1px;
+}
+.hey24{
+    width: 234;
+    height: 2px;
+    background: gold;
+    border-radius: 5px / 8px;
+    padding: 2px 20px 2px 2px;
+}
+.hey25{
+    width: 50px;
+    height: 50px;
+    background: gold;
+    border-radius: 100px / 50px;
+    padding: 50px 20px 20px 30px;
+}
+.hey26{
+    width: 50px;
+    height: 50px;
+    background: gold;
+    border-radius: 150px / 100px;
+    padding: 60px 30px 30px 40px;
+}
+.hey27{
+    width: 50px;
+    height: 50px;
+    background: gold;
+    border-radius: 200px / 150px;
+    padding: 70px 40px 40px 50px;
+}
+.hey28{
+    width: 50px;
+    height: 50px;
+    background: gold;
+    border-radius: 300px / 300px;
+    padding: 90px 20px 50px 50px;
+}
+.hey29{
+    width: 100px;
+    height: 50px;
+    background: gold;
+    border-radius: 95px / 800px;
+    padding: 90px 50px 510px 2px;
+}
+.hey30{
+    width: 1px;
+    height: 50px;
+    background: gold;
+    border-radius: 45px / 80px;
+    padding: 90px 50px 510px 2px;
+}
+.hey31{
+    width: 100px;
+    height: 50px;
+    background: gold;
+    border-radius: 459px / 82px;
+    padding: 40px 60px 500px 2px;
+}
+.hey32{
+    width: 500px;
+    height: 5px;
+    background: gold;
+    border-radius: 205px / 300px;
+    padding: 6px 50px 20px 2px;
+}
+.hey33{
+    width: 30px;
+    height: 30px;
+    background: gold;
+    border-radius: 40px / 40px;
+    padding: 560px 50px 560px 200px;
+}
+.hey34{
+    width: 1px;
+    height: 2px;
+    background: gold;
+    border-radius: 5px / 800px;
+    padding: 20px 20px 20px 2px;
+}
+.hey35{
+    width: 300px;
+    height: 900px;
+    background: gold;
+    border-radius: 25px / 3px;
+    padding: 600px 5px 2px 200px;
+}
+.hey36{
+    width: 80px;
+    height: 390px;
+    background: gold;
+    border-radius: 434px / 488px;
+    padding: 10px 10px 10px 10px;
+}
+.hey37{
+    width: 04px;
+    height: 2px;
+    background: gold;
+    border-radius: 5px / 800px;
+    padding: 20px 20px 20px 2px;
+}
+
+

@@ -1,0 +1,280 @@
+/* Begin CSS Reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html{
+    background-color: antiquewhite
+    height: 100%;
+    width: 100%;
+    font-family: 'Spirax', cursive;
+  
+}
+body{
+background-size: 100%, 100%;
+width: 100%;
+height: 100vh;
+
+}
+.box{
+    height: 27%;
+    width: 33%;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 4em;
+    position: fixed;
+   font-family: 'Spirax', cursive;
+     text-shadow: 2px 2px #b94646;
+    line-height: 80px;
+    display: none;
+}
+.paragraph1{
+    height: 20%;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 37%;
+    font-size: .9em;
+    position: fixed;
+    font-family: 'Arsenal', sans-serif;
+    line-height: 165%;
+     display: none;
+    
+    
+}
+.paragraph2{
+    height: 20%;
+    width: 60%;
+    margin-top: 10.6%;
+    margin-left: 37%;
+    font-size: .9em;
+    position: fixed;
+    font-family: 'Arsenal', sans-serif;
+    line-height: 32px;
+       display: none;
+
+}
+.bold:hover {
+   color: darkred;
+}
+.bold{
+    font-size: 1.7em;
+    color: red;
+    margin-top: 9.9%;
+    margin-left: 48.7%;
+    position: fixed;
+font-family: 'Arsenal', sans-serif;
+    display: none; 
+    animation-name: example;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    100%  {color: red;}
+    100% {color: #ff8a8a;}
+}
+
+.bold:hover {
+       font-size: 2em;
+        color: red;
+}
+
+.box2{
+    height: 20%;
+    width: 50%;
+    font-size: 3em;
+     margin-top: 20%;
+font-family: 'Arsenal', sans-serif;
+    position: fixed;
+    margin-left: 2%;
+}
+.paragraph3{
+    height: 20%;
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 3%;
+    font-size: .9em;
+    position: fixed;
+      line-height: 32px;
+font-family: 'Arsenal', sans-serif;
+    display: none;
+}
+.paragraph4{
+    height: 20%;
+    width: 30%;
+    margin-top: 33%;
+    margin-left: 3%;
+    font-size: .9em;
+    position: fixed;
+    line-height: 32px;
+    display: none;
+font-family: 'Arsenal', sans-serif;
+}
+.surround{
+    font-size: 5em;
+    color: red;
+    margin-top: 20%;
+    margin-left: 3%;
+    position: fixed;
+    display: none;
+font-family: 'Arsenal', sans-serif;
+font-family: 'Arsenal', sans-serif;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+}
+.surround:hover {
+        color: red;
+        font-size: 5.5em;
+}
+.attack{
+    font-size: 1.7em;
+    color: red;
+    margin-top: 42%;
+    margin-left: 3%;
+    display: none;
+    position: fixed;
+    font-family: 'Arsenal', sans-serif;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+}
+.attack:hover {
+        color: red;
+        font-size: 2em;
+}
+.paragraph5{
+    height: 20%;
+    width: 60%;
+    margin-top: 35%;
+    margin-left: 37%;
+    font-size: .9em;
+    position: fixed;
+    font-family: 'Arsenal', sans-serif;
+    line-height: 32px;
+    display: none;
+    
+    
+}
+
+.chaos{
+    font-size: 1.7em;
+    margin-top: 39%;
+    margin-left: 63.5%;
+    position: fixed;
+    font-family: 'Arsenal', sans-serif;
+    animation-name: example;
+    display: none;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+}
+.paragraph6{
+    height: 20%;
+    width: 60%;
+    margin-top: 35%;
+    margin-left: 37%;
+    font-size: .9em;
+    display: none;
+    position: fixed;
+    font-family: 'Arsenal', sans-serif;
+    line-height: 32px;
+    background-color: rgba(245, 0, 0, 1);  
+}
+.defend{
+    font-size: 1.7em;
+    margin-top: 24%;
+    margin-left: 85.5%;
+    display: none;
+    position: fixed;
+    font-family: 'Arsenal', sans-serif;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+     z-index: 1;
+}
+.paragraph7{
+    height: 30%;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 37%;
+    font-size: .9em;
+    position: fixed;
+    font-family: 'Arsenal', sans-serif;
+    line-height: 32px;
+    background-color: rgba(245, 0, 0, 1);  
+    display: none;
+}
+.castle{
+    font-size: 1.7em;
+    margin-top: 16.5%;
+    margin-left: 63%;
+    position: fixed;
+    font-family: 'Arsenal', sans-serif;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+     z-index: 1;
+     display: none;
+}
+.unicorn{
+    background-image: url(fff7f936b1860d1cbb7b5133197783fe54b4700a.jpg);
+    background-size: 400px; 500px;
+    height: 400px;
+    margin-top: 21%;
+    width: 500px;
+    align-content: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    display: none;
+    margin-left: 3%;
+    background-color: rgba(245, 0, 0, 1);  
+}
+.desc{
+    height: 55%;
+    width: 80%;
+    margin-top: 24%;
+    margin-left: 37%;
+    font-size: 1.5em;
+    display: none;
+    position: fixed;
+    font-family: 'Arsenal', sans-serif;
+    line-height: 32px;
+    background-color: rgba(245, 0, 0, 1); 
+       z-index: 1;
+    
+    
+}
+.description{
+    height: 100vh;
+    width: 60%;
+    margin-top: 3%;
+    margin-bottom: 15%;
+    margin-left: 37%;
+    font-size: .9em;
+    font-family: 'Arsenal', sans-serif;
+    line-height: 32px;
+    
+    
+}
